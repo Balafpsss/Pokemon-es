@@ -1,0 +1,17 @@
+{
+  "name": "Pokémon ES",
+  "version": "1.0.0",
+  "description": "Episodios de Pokémon en castellano desde YouTube",
+  "author": "tu-nombre",
+  "scrapers": [
+    {
+      "id": "pokemon-es",
+      "name": "Pokémon (Castellano)",
+      "description": "Episodios de Pokémon en castellano vía YouTube",
+      "version": "1.0.0",
+      "filename": "providers/pokemon-es.js",
+      "supportedTypes": ["tv"],
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Plugin Nuvio: Pokémon ES
+========================
+1. Descomprime este archivo.
+2. Crea un repositorio en GitHub y sube manifest.json y la carpeta providers/.
+3. Copia la URL "raw" de manifest.json, por ejemplo:
+   https://raw.githubusercontent.com/TU_USUARIO/nuvio-pokemon-es/main/manifest.json
+4. En Nuvio: Ajustes -> Plugins -> añadir repositorio -> pega esa URL.
+5. Activa el scraper "Pokémon (Castellano)".
+
+Para añadir episodios edita providers/pokemon-es.js (objeto EPISODIOS).
+Comprueba que TMDB_ID_POKEMON es el ID de la serie en themoviedb.org.
+Úsalo solo con vídeos que el canal permita ver legítimamente.
